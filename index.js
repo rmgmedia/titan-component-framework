@@ -13,5 +13,4 @@ export const TitanFramework = (WrappedComponent) => {
       return <WrappedComponent {...this.props} />;
     }
   };
-  return WrappedComponent;
 };
