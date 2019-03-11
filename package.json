@@ -1,7 +1,23 @@
 {
   "name": "@rmgmedia/titan-component-framework",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "author": "Ryan Gellis",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "dependencies": {
+    "react": "^16.8.4",
+    "webpack": "^4.29.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "webpack-cli": "^3.2.3"
+  },
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack --mode production"
+  }
 }
