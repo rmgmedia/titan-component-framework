@@ -1,7 +1,7 @@
 import React from 'react';
 
-export const TitanFramework = (WrappedComponent) => {
-  return class TitanFramework extends React.Component
+const TitanFramework = (WrappedComponent) => {
+  class EnhancedComponent extends React.Component
   {
     constructor(props)
     {
@@ -12,5 +12,9 @@ export const TitanFramework = (WrappedComponent) => {
     {
       return <WrappedComponent {...this.props} />;
     }
-  };
+  }
+
+  return EnhancedComponent;
 };
+
+exports.TitanFramework = TitanFramework;
