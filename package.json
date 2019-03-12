@@ -1,7 +1,7 @@
 {
   "name": "@rmgmedia/titan-component-framework",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "dist/main.js",
   "author": "Ryan Gellis",
   "license": "UNLICENSED",
   "dependencies": {
