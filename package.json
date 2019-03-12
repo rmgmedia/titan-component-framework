@@ -17,6 +17,9 @@
     "babel-loader": "^8.0.5",
     "webpack-cli": "^3.2.3"
   },
+  "peerDependencies": {
+    "react": "^16.8.4"
+  },
   "scripts": {
     "start": "webpack --watch",
     "build": "webpack --mode production"
