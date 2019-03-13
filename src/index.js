@@ -10,7 +10,7 @@ export const TitanFramework = (WrappedComponent) => {
 
     render()
     {
-      return <WrappedComponent {...this.props} />;
+      return <WrappedComponent />;
     }
   }
 };
