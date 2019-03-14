@@ -4,6 +4,9 @@
   "main": "dist/main.js",
   "author": "Ryan Gellis",
   "license": "UNLICENSED",
+  "dependencies": {
+    "react": "^16.8.4"
+  },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.3.4",
@@ -21,6 +24,6 @@
   },
   "scripts": {
     "start": "webpack --watch",
-    "build": "webpack --mode production"
+    "build": "webpack-cli --mode production"
   }
 }

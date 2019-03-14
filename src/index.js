@@ -14,4 +14,3 @@ export const TitanFramework = (WrappedComponent) => {
     }
   }
 };
-export default TitanFramework;
