@@ -1,16 +1,18 @@
-import React from 'react';
+// import React from 'react';
+//
+// export const TitanFramework = (WrappedComponent) => {
+//   return class extends React.Component
+//   {
+//     constructor(props)
+//     {
+//       super(props);
+//     }
+//
+//     render()
+//     {
+//       return <WrappedComponent {...this.props} />;
+//     }
+//   }
+// };
 
-export const TitanFramework = (WrappedComponent) => {
-  return class extends React.Component
-  {
-    constructor(props)
-    {
-      super(props);
-    }
-
-    render()
-    {
-      return <WrappedComponent {...this.props} />;
-    }
-  }
-};
+export const TitanFramework = 1;
