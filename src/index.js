@@ -1,6 +1,6 @@
 import React from 'react';
 
-export function TitanFramework(WrappedComponent) {
+export const TitanFramework = (WrappedComponent) => {
   return class extends React.Component
   {
     constructor(props)
@@ -14,3 +14,4 @@ export function TitanFramework(WrappedComponent) {
     }
   }
 };
+export default TitanFramework;
