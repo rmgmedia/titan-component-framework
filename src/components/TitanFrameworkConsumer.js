@@ -13,7 +13,7 @@ export default (WrappedComponent) => {
     {
       return (
         <TitanFrameworkContext.Consumer>
-          <WrappedComponent />
+          {value => {<WrappedComponent {...value} />}}
         </TitanFrameworkContext.Consumer>
       );
     }
