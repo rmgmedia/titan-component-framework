@@ -13,7 +13,7 @@ export default (WrappedComponent) => {
     {
       return (
         <TitanFrameworkContext.Consumer>
-          {value => {<WrappedComponent {...props} {...value} />}}
+          {value => {<WrappedComponent {...this.props} {...value} />}}
         </TitanFrameworkContext.Consumer>
       );
     }
