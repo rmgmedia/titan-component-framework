@@ -1,4 +1,4 @@
 import TitanFramework from './components/TitanFramework';
-import { TitanFrameworkContext } from "./components/TitanFrameworkContext";
+import { connect } from "./connect/connect";
 
-export { TitanFramework, TitanFrameworkContext };
+export { TitanFramework, connect };
