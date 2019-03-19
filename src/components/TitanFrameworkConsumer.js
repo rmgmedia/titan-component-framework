@@ -7,7 +7,7 @@ export default (WrappedComponent) => {
     constructor(props)
     {
       super(props);
-      this.wrappedComponent = WrappedComponent;
+      this.wrappedComponent = WrappedComponent.bind(this);
     }
 
     render()
