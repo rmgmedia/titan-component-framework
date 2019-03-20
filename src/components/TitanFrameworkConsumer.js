@@ -7,14 +7,13 @@ export default (WrappedComponent) => {
     constructor(props)
     {
       super(props);
-      this.wrappedComponent = WrappedComponent.bind(this);
     }
 
     render()
     {
       return (
         <TitanFrameworkContext.Consumer>
-          {value => <WrappedComponent {...this.wrappedComponent.props} {...value} />}
+          {value => <WrappedComponent {...value} />}
         </TitanFrameworkContext.Consumer>
       );
     }
